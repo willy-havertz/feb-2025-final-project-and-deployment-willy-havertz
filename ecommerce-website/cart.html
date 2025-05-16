@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart – ShopSmart</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="alert-container"></div>
+
+    <header>
+      <nav class="navbar">
+        <div class="logo">ShopSmart</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li>
+            <a href="cart.html" class="active"
+              >Cart (<span id="cart-count">0</span>)</a
+            >
+          </li>
+        </ul>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="cart-page">
+        <h1>Your Shopping Cart</h1>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-total">
+          <p>Total: $<span id="cart-total">0.00</span></p>
+          <a href="checkout.html" class="btn" id="checkout-btn"
+            >Proceed to Checkout</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 ShopSmart</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

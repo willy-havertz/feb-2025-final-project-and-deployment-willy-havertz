@@ -1,4 +1,3 @@
-// ── LocalStorage Helpers ─────────────────────────────────────────────────────
 function saveToLS(key, v) {
   localStorage.setItem(key, JSON.stringify(v));
 }
