@@ -3,7 +3,7 @@
 ShopSmart is a modern, responsive eCommerce website built using HTML, CSS, and JavaScript. It allows users to browse products, filter by category, view product details, and manage their cart with persistent storage using `localStorage`.
 
 Visit the live demo of the ShopSmart eCommerce website:  
-👉 [Live Demo](https://yoursite.netlify.app)
+👉 [shopsmartfy.netlify](https://shopsmartfy.netlify.app/)
 
 ---
 
@@ -47,5 +47,5 @@ Visit the live demo of the ShopSmart eCommerce website:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ShopSmart.git
+   https://github.com/willy-havertz/feb-2025-final-project-and-deployment-willy-havertz.git
    ```
