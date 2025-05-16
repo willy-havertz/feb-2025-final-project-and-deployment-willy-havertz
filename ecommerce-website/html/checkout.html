@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout – ShopSmart</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+
+  <div id="alert-container"></div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">ShopSmart</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="checkout-summary">
+      <h1>Checkout</h1>
+      <div id="cart-summary"></div>
+    </section>
+
+    <section class="checkout-form">
+      <form id="checkout-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required/>
+
+        <label for="address">Shipping Address</label>
+        <input type="text" id="address" name="address" required/>
+
+        <label for="payment">Payment Method</label>
+        <select id="payment" name="payment" required>
+          <option value="credit-card">Credit Card</option>
+          <option value="paypal">PayPal</option>
+        </select>
+
+        <button type="submit" class="btn">Place Order</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShopSmart</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
